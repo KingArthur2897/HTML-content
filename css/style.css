@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Fira Code", monospace;
+}
+
+.home {
+    width: 100%;
+    background-color: #282C33;
+    padding: 8px 171px;
+    min-height: 500px;
+}
+
+.header{
+    display: flex;
+    width:100%;
+    height: 40px;
+    align-items: end;
+    font-size: 13px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.header-text{
+    color: mediumpurple;
+}
+
+.menu-item{
+    color: mediumpurple;
+
+}
+
+.description-page {
+    width: 100%;
+    min-height: 200px;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 8px;
+
+    grid-gap: 10px;
+}
+.description-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    height: 70%;
+    margin-top: 15%;
+}
+.profession{
+    font-size: 1.3em;
+}
+.purple-desc{
+    color: mediumpurple;
+    font-weight: bold;
+}
+
+.slogan{
+    font-size: 0.7em;
+    color: gray;
+}
+.contact{
+    width: fit-content;
+    padding: 2px 8px;
+    padding-left: 2px;
+    background-color: rgba(0,0,0,0);
+    color: mediumpurple;
+    border: 1px solid mediumpurple;
+}
+
+.description-img img{
+    width: 100%;
+}
